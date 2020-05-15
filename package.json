@@ -2,7 +2,7 @@
   "name": "page-composer",
   "version": "0.1.0",
   "description": "Online web-page block editor",
-  "main": "index.js",
+  "main": "bin/index.js",
   "engines": {
     "node": "13.12.x"
   },
@@ -23,7 +23,7 @@
     ]
   },
   "scripts": {
-    "start": "node -r esm ./bin/index.js",
+    "start": "node -r esm bin/index.js",
     "build": "webpack"
   },
   "author": "Igor Piskunov",
