@@ -1,0 +1,5 @@
+const TOGGLE_IMAGE_MODAL = "TOGGLE_IMAGE_MODAL"
+
+export default {
+  TOGGLE_IMAGE_MODAL
+}

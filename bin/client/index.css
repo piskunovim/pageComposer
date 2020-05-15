@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+.page-composer-title {
+    text-align: center;
+}
+
+.page-composer-title > a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.link {
+    color: #172B4D;
+}
+
+.link:hover {
+    color: #FFAB00;
+    cursor: pointer;
+}
+
+.link-inherit{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+

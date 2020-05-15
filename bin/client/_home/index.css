@@ -1,0 +1,69 @@
+.home-pages-thumbnail-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px auto;
+    width: 50%;
+}
+
+.home-pages-thumbnail{
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 15px;
+    width: 200px;
+    height: 100px;
+}
+
+.home-pages-thumbnail:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.home-pages-thumbnail .page-title {
+    width: 180px;
+    height: 100%;
+}
+
+.home-pages-thumbnail .page-remove-icon {
+    position:absolute;
+    top:7px;
+    right: 7px;
+    color: #172B4D;
+}
+
+.home-pages-thumbnail .page-remove-icon:hover {
+    color: #DE350B;
+    cursor: pointer;
+}
+
+.home-pages-thumbnail .page-add {
+    cursor: pointer;
+}
+
+.home-pages-thumbnail .page-add-icon {
+    display:inline-block;
+    margin: 10px auto;
+    width:75px;
+    height:75px;
+    background:
+            linear-gradient(#000,#000),
+            linear-gradient(#000,#000);
+    background-position:center;
+    background-size: 50% 2px,2px 50%; /*thickness = 2px, length = 50% (25px)*/
+    background-repeat:no-repeat;
+}
+
+.home-pages-thumbnail:hover .page-add-icon {
+    display:inline-block;
+    margin: 10px auto;
+    width:75px;
+    height:75px;
+    background:
+            linear-gradient(rgba(0, 140, 186, 0.5),rgba(0, 140, 186, 0.5)),
+            linear-gradient(rgba(0, 140, 186, 0.5),rgba(0, 140, 186, 0.5));
+    background-position:center;
+    background-size: 50% 2px,2px 50%; /*thickness = 2px, length = 50% (25px)*/
+    background-repeat:no-repeat;
+}

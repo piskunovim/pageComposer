@@ -1,0 +1,11 @@
+.not-found-container{
+    display: block;
+    text-align: center;
+    line-height: 1.7em;
+    margin: 15px 0;
+}
+
+.not-found-title, .not-found-img{
+    display: block;
+    margin: 15px 0;
+}

@@ -1,0 +1,62 @@
+{
+  "name": "page-composer",
+  "version": "0.1.0",
+  "description": "Online web-page block editor",
+  "main": "index.js",
+  "engines": {
+    "node": "13.12.x"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ],
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ]
+  },
+  "scripts": {
+    "start": "node -r esm ./bin/index.js",
+    "build": "webpack"
+  },
+  "author": "Igor Piskunov",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cogo-toast": "^4.2.3",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.2.0",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-import-static-files": "^1.0.4",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "react-icons": "^3.10.0",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "uuid": "^8.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
